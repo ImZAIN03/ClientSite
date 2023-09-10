@@ -1,0 +1,64 @@
+.date{
+    color: #BB3C3C;
+    font-size: 24px;
+}
+.one{
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+.two{
+    position: absolute;
+    left: 1000px;
+    top: 300px;
+}
+.three{
+    position: absolute;
+    left: 220px;
+    top: 350px;
+}
+.four{
+    position: absolute;
+    left: 920px;
+    top: 380px;
+}
+.five{
+    position: absolute;
+    left: 1300px;
+    top: 480px;
+}
+.six{
+    position: absolute;
+    left: 680px;
+    top: 480px;
+}
+
+.year {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .year:hover {
+    transform: scale(1.1); 
+  }
+  
+  .transition-image {
+    position: absolute;
+    /* padding: 20px; */
+    opacity: 0;
+    transition: opacity 0.5s ease; 
+    max-width: 100px; 
+    top: 100%;
+    left: 0;
+    display: flex; 
+    align-items: center;
+  }
+  
+  .transition-image img {
+    padding-right: 10px; 
+  }
+  
+  .year:hover .transition-image {
+    opacity: 1;
+  }
+  
+  
